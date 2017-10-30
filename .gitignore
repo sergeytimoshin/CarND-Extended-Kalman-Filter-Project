@@ -22,3 +22,10 @@ xcuserdata/
 *.xcscmblueprint
 ide_profiles/xcode/Debug/
 ide_profiles/xcode/ExtendedKF.build/
+/CMakeFiles
+/cmake_install.cmake
+/ExtendedKF.build
+/CMakeCache.txt
+/ExtendedKF.xcodeproj
+/CMakeScripts
+/Debug
