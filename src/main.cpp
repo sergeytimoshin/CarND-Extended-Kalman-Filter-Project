@@ -135,16 +135,13 @@ int main()
                     msgJson["rmse_vy"] = RMSE(3);
                     auto msg = "42[\"estimate_marker\"," + msgJson.dump() + "]";
                     //            std::cout << msg << std::endl;
-
 //                    if (RMSE(0) > .11 || RMSE(1) > .11 || RMSE(2) > .52 || RMSE(3) > .52) {
 //                        std::cout << "RMSE out of bounds!" << std::endl;
 //                    }
 //                    else {
 //                        std::cout << "OK" << std::endl;
 //                    }
-                    
                     ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
-
                 }
             } else {
 
